@@ -34,7 +34,7 @@
     <!-- Create a Set of Radio Buttons -->
     <!-- Create a Set of Checkboxes -->
     <!-- Use the value attribute with Radio Buttons and Checkboxes -->
-    <!--  -->
+    <!-- Check Radio Buttons and Checkboxes by Default -->
     <h2>CatPhotoApp</h2>
     <main>
       <p>Click here to view more <a href="#">cat photos</a>.</p>
@@ -61,18 +61,19 @@
         <label for="indoor"
           ><input
             id="indoor"
-            value="indoor"
             type="radio"
             name="indoor-outdoor"
+            value="indoor"
+            checked
           />
           Indoor</label
         >
         <label for="outdoor"
           ><input
             id="outdoor"
-            value="outdoor"
             type="radio"
             name="indoor-outdoor"
+            value="outdoor"
           />
           Outdoor</label
         ><br />
@@ -80,21 +81,22 @@
           ><input
             id="loving"
             type="checkbox"
-            value="loving"
             name="personality"
+            value="loving"
+            checked
           />
           Loving</label
         >
         <label for="lazy"
-          ><input id="lazy" type="checkbox" value="lazy" name="personality" />
+          ><input id="lazy" type="checkbox" name="personality" value="lazy" />
           Lazy</label
         >
         <label for="energetic"
           ><input
             id="energetic"
             type="checkbox"
-            value="energetic"
             name="personality"
+            value="energetic"
           />
           Energetic</label
         ><br />
